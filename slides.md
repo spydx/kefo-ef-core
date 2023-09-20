@@ -8,6 +8,7 @@ drawings:
 transition: slide-left
 title: FagDag - Mastering EF Core 
 mdc: true
+download: true
 ---
 
 # FagDag - Mastering EF Core
@@ -63,7 +64,7 @@ transition: fade-out
 ---
 layout: image-right
 transition: fade-out
-image: ./kenneth.JPG
+image: /kenneth.jpg
 ---
 
 # $ whoami
