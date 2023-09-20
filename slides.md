@@ -42,9 +42,13 @@ transition: fade-out
 
 
 # What is EF Core
-# EF Core 6 -> 7 -> 8
+
+# EF Core 5 -> 6 -> 7 -> 8
+
 # Dapper vs EF Core
-# 7 Deadly Sins
+
+# 7 Deadly 
+
 # Sources
 # Practice / Challenges
 
