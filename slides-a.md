@@ -14,13 +14,12 @@ mdc: true
 
 Learning from common issues when using EF Core
 
-<v-click>
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Let's get going <carbon:arrow-right class="inline"/>
   </span>
 </div>
-</v-click>
+
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/kenneth-fossen" target="_blank" alt="GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -30,26 +29,18 @@ Learning from common issues when using EF Core
 
 ---
 transition: fade-out
-class: text-center
 ---
-## Intro
+# Intro
 
-<div>
-  <br>
+<div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/kenneth-fossen/ef-core-workshop" target="_blank" alt="GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
-  <br>
-  <a href="https://github.com/kenneth-fossen/ef-core-workshop" target="_blank" alt="GitHub">Repo</a>
 </div>
 
 
----
-transition: fade-out
----
-
-## What is EF Core
+# What is EF Core
 
 # EF Core 5 -> 6 -> 7 -> 8
 
@@ -59,6 +50,7 @@ transition: fade-out
 
 # Sources
 # Practice / Challenges
+
 
 ---
 layout: image-right
@@ -91,6 +83,7 @@ $ whoami
       ],
  }
 ```
+
 ---
 transition: fade-out
 layout: default
@@ -99,6 +92,16 @@ layout: default
 # Overview
 
 <Toc maxDepth="1"></Toc>
+
+---
+
+# What is EF Core
+# EF Core 6 -> 7 -> 8
+# Dapper vs EF Core
+# 7 Deadly Sins
+# Sources
+# Practice / Challenges
+
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/guide/syntax#embedded-styles
@@ -119,23 +122,40 @@ h1 {
 <!--
 Here is another comment.
 -->
+
 ---
 layout: default
 ---
-# What is EF Core
+
+# Table of contents
+
+<Toc maxDepth="1"></Toc>
+
 ---
-layout: default
+layout: center
+class: text-center
 ---
-# EF Core 6 -> 7 -> 8
----
-layout: default
----
-# Dapper vs EF Core
----
-layout: default
----
-# 7 Deadly Sins
----
-layout: default
----
+
+# Learn More
+
+[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+
+--- 
+
 # Practice / Challenges
+
+[Persist and retrive relational data by Using Entity FF Core](https://learn.microsoft.com/en-us/training/modules/persist-data-ef-core/)
+[OptimizeMePlease](https://github.com/StefanTheCode/OptimizeMePlease)
+
+--- 
+
+# Sources
+
+[Entity Frameworkj Core Docs](https://learn.microsoft.com/en-us/ef/core/)
+[What's New in EF Core 6.0](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-6.0/whatsnew)
+[What's New in EF Core 7.0](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew)
+[What's New in EF Core 8.0](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-8.0/whatsnew)
+[NDC - Oslo: Common mistakes in EF Core - Jernej Kavka](https://www.youtube.com/watch?v=dDANjr5MCew)
+[NDC {London} - EF Core Unchained: Getting the Best performance from your ORM](https://www.youtube.com/watch?v=ZKVXl2640ps)
+[EF Core Performance Optimization Challenge | 233x FASTER](https://www.youtube.com/watch?v=jSiGyPHqnpY)
+[Entity Framwork Core in Action, 2nd Edition](https://www.manning.com/books/entity-framework-core-in-action-second-edition)
