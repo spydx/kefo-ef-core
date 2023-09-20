@@ -8,6 +8,7 @@ drawings:
 transition: slide-left
 title: FagDag - Mastering EF Core 
 mdc: true
+download: true
 ---
 
 # FagDag - Mastering EF Core
