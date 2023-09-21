@@ -1,0 +1,8 @@
+services:
+    ef-core-database:
+      image: mcr.microsoft.com/azure-sql-edge:latest
+      environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=SupaCoolPassword1!
+      ports:
+        - 1433:1433

@@ -1,5 +1,20 @@
 # kefo-ef-core: Challenges
 
+If you need a database server
+
+## SQLite
+
+If you wanna use SQLite, in your projects add this package.
+```sh
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+```
+
+[Guide](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
+
+## Docker & Azure SQL Server
+You can use the `docker-compose.yaml` in this repo to have server running.
+
+
 ## Practice / Challenges
 
 [First App with Database](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)

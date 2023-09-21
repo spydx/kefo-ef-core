@@ -52,7 +52,7 @@ layout: center
 ---
 layout: image-right
 transition: fade-out
-image: /kenneth.jpg
+image: ./kbo.jpg
 ---
 
 # $ whoami
