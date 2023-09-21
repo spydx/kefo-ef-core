@@ -11,5 +11,9 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-theme-dracula": "^0.2.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.54",
+    "@iconify-json/uim": "^1.1.6"
   }
 }
