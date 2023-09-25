@@ -166,7 +166,7 @@ layout: full
 
 ## LINQ to SQL
 
-```ts {all|5-6,11-12|6,13|7,14|8|all}
+```ts {all|4-5,11-12|6,13|7,14|8|all}
 // C# Code
 using var db = new BloggingContext();
 
